@@ -1,0 +1,153 @@
+.warp{
+    overflow-y: scroll;
+}
+
+#list{
+    width: 100%; 
+    position: fixed; 
+    top: 0;
+    z-index: 50;
+    height: 100px; 
+    max-width: 420px;
+    margin:auto;
+    background-color: #fff;;
+}
+#list ul {
+    margin-top:50px ;
+    display: flex;
+}
+#list ul li{
+    text-align: center;
+    width: 50%;
+}
+
+#list ul li a{
+    display: block;
+    width: 100%;
+    color:#666;
+    padding: 15px 0;
+}
+
+#list ul li .active{
+    border-bottom: solid 2px #000;
+}
+
+#list ul li a.active{
+    font-weight: bold;
+    color:#000
+}
+
+.warp #review-list{
+    padding-top: 100px;
+    padding-bottom:80px;
+}
+
+.warp #review-list .review-title{
+    display: grid;
+    padding-left: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#000;
+    margin: 0;
+    gap: 5px;
+}
+
+.warp #review-list .review-title span{
+    font-size: 16px;
+    font-weight: normal;
+    color:#aaa;
+    margin: 0;
+    display: block;
+}
+.warp #review-list .review-ticket{
+    padding-top: 15px;
+    border-bottom: 1px solid #eee;
+
+}
+
+.warp #review-list .review-ticket .review-profile{
+    padding: 0 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.warp #review-list .review-ticket .review-profile .admark{
+    text-align: center;
+    padding:5px 10px;
+    font-size: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    font-weight: normal;
+    color:#ccc;
+    right: 15px;
+    position: absolute;
+    
+}
+.warp #review-list .review-ticket .review-profile .review-date{
+    font-weight: normal;
+    color:#666;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.warp #review-list .review-ticket .review-profile .review-spot{
+    font-weight: normal;
+    color:#666;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.warp #review-list .review-ticket .review-txt{
+    padding: 0 15px;
+
+}
+
+.warp #review-list .review-ticket .review-img{
+    display: inline-block;
+    width: 100%;
+    height: 220px;
+    background-color: #666;
+}
+
+.warp #review-list .review-ticket .user-action{
+    display: flex;
+    align-items: center;
+    margin:15px;
+    gap:10px;
+}
+
+.warp #review-list .review-ticket .user-action a{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.warp #review-list .review-ticket .user-action a svg{
+    display: inline-block;
+    width:20px;
+    height: 20px;
+}
+
+.warp #review-list .review-ticket .user-action a span{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.warp #review-list .review-ticket .review-img:hover{
+    filter: brightness(1.1);
+}
+
+.warp #review-list .review-ticket .review-more{
+    padding: 10px 15px;
+    color:#666;
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid #eee;
+}
+
+.warp #review-list .review-ticket .review-more:hover{
+    cursor: pointer;
+    color:#000;
+}

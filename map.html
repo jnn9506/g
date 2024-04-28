@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>근로자의 밥상</title>
+    <link rel="stylesheet" href="css/nav.css" type="text/css">
+    <link rel="stylesheet" href="css/main-map.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="./js/js.js"></script>
+    <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=26d01cf7aeafe4894994751cc79a240f"></script>
+    <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+</head>
+
+<body>
+    
+<div id="nav">
+    <div id="topbar">
+        <a id="spot">
+            <p id="address_kakao" name="address" readonly>주소를 입력 해주세요.<span><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/>
+              </svg>
+              </span>
+              <script>
+                </script>
+            </p>
+        </a>
+        <a id="member"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+          </svg>
+        </a>
+    </div>
+    <div id="bottombar">
+        <a class="B-menu active" href="./map.html">
+            <div class="B-menu-ico">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.8 13.938h-.011a7 7 0 1 0-11.464.144h-.016l.14.171c.1.127.2.251.3.371L12 21l5.13-6.248c.194-.209.374-.429.54-.659l.13-.155Z"/>
+                  </svg>
+                  
+            </div>
+            <div class="B-menu-title">
+                <p>가까운 밥상</p>
+            </div>
+        </a>
+        <a class="B-menu" href="./index.html">
+            <div class="B-menu-ico">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 12 8-8 8 8M6 10.5V19a1 1 0 0 0 1 1h3v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h3a1 1 0 0 0 1-1v-8.5"/>
+                  </svg>
+            </div>
+            <div class="B-menu-title">
+                <p>홈</p>
+            </div>
+        </a>
+        <a class="B-menu" href="./community.html">
+            <div class="B-menu-ico">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                  </svg>
+            </div>
+            <div class="B-menu-title">
+                <p>실시간 밥상</p>
+            </div>
+        </a>
+    </div>
+</div>
+    <div class="warp">
+        <a id="map-ad" href=""><span class="admark">AD</span><div id="map-ad-img"><span>지금 여기 광고가 무료!<br>010-0000-0000</span></div></a>
+        <div id="map"></div>
+        <script src="./js/map.js"></script>
+    </div>
+</body>
+
+</html>

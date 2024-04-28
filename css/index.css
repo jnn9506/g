@@ -1,0 +1,206 @@
+
+
+.warp{
+    overflow-y: scroll;
+}
+
+.warp #my-favorite-list{
+    padding-top: 60px;
+    width: 100%;
+    background-color: #ffdd00;
+}
+
+.warp #my-favorite-list .date{
+    width: calc(100% - 30px);
+    display: grid;
+    padding: 15px;
+    color:#666;
+    margin: 0;
+}
+
+.warp #my-favorite-list .date span{
+    padding-top: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#000;
+}
+
+.warp #my-favorite-list .my-favorite-list-shop{
+    padding: 0 15px 30px 15px;
+    display: flex;
+    gap: 15px;
+    overflow-x: scroll;
+}
+
+.warp #my-favorite-list .my-favorite-list-shop::-webkit-scrollbar{
+    display: none;
+}
+
+.warp #my-favorite-list .my-favorite-list-shop .my-favorite-list-shop-box{
+    display: inline-block;
+    background-color: #fff;
+    width: 180px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    padding: 20px 15px;
+
+}
+
+.warp #my-favorite-list .my-favorite-list-shop .my-favorite-list-shop-box .my-favorite-list-shop-name{
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+    display: block;
+    padding: 5px 15px;
+    background-color: #000;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.warp #my-favorite-list .my-favorite-list-shop .my-favorite-list-shop-box .my-favorite-list-shop-menu{
+    padding: 10px 15px;
+    line-height: 24px;
+}
+
+
+.warp #my-favorite-list .my-favorite-list-shop .my-favorite-list-shop-box .my-favorite-list-shop-menu li{
+    color:#666;
+
+}
+
+.warp #my-favorite-list .my-favorite-list-shop .my-favorite-list-shop-box .my-favorite-list-shop-review{
+    color:#000;
+    font-weight: bold;
+    padding: 0 15px;
+    position: relative;
+    bottom: -75px;
+}
+
+.warp #main-point{
+    background-color: #000;
+    padding: 30px 15px;
+}
+
+.warp #main-point p{
+    display: inline-block;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #fff;
+    margin: 0;
+}
+
+.warp #main-point a{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    color: #fff;
+    margin: 0;
+}
+
+.warp #main-point #main-my-point{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 10px #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.warp #main-point #main-my-point #point-refresh{
+    padding-right:10px;
+    cursor: pointer;
+}
+.warp #main-point #main-my-point .data-my-point{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.warp #main-point #main-my-point .data-my-point span{
+    color:#666
+}
+
+
+.warp #notice-list{
+    padding-top: 30px;
+    padding-bottom:80px;
+}
+
+.warp #notice-list .notice-title{
+    display: grid;
+    padding-left: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#000;
+    margin: 0;
+    gap: 5px;
+}
+
+.warp #notice-list .notice-title span{
+    font-size: 16px;
+    font-weight: normal;
+    color:#aaa;
+    margin: 0;
+    display: block;
+}
+.warp #notice-list .notice-ticket{
+    padding-top: 15px;
+
+}
+
+.warp #notice-list .notice-ticket .notice-profile{
+    padding: 0 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.warp #notice-list .notice-ticket .notice-profile .admark{
+    text-align: center;
+    padding:5px 10px;
+    font-size: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    font-weight: normal;
+    color:#ccc;
+    right: 15px;
+    position: absolute;
+    
+}
+.warp #notice-list .notice-ticket .notice-profile .notice-date{
+    font-weight: normal;
+    color:#666;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.warp #notice-list .notice-ticket .notice-txt{
+    padding: 0 15px;
+
+}
+
+.warp #notice-list .notice-ticket .notice-img{
+    display: inline-block;
+    width: 100%;
+    height: 220px;
+    background-color: #666;
+}
+
+.warp #notice-list .notice-ticket .notice-img:hover{
+    filter: brightness(1.1);
+}
+
+.warp #notice-list .notice-ticket .notice-more{
+    padding: 10px 15px;
+    color:#666;
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid #eee;
+}
+
+.warp #notice-list .notice-ticket .notice-more:hover{
+    cursor: pointer;
+    color:#000;
+}
